@@ -2,17 +2,36 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="highway-service-registry" />
+        <module name="ticket-ticket-service" />
+        <module name="ticket-payment-service" />
+        <module name="ticket-user-service" />
+        <module name="ticket-api-gateway" />
+        <module name="ticket-config-server" />
+        <module name="ticket-vehicle-service" />
+        <module name="ticket-service-registry" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="highway-config-server" target="17" />
+      <module name="highway-service-registry" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="highway-config-server" options="-parameters" />
       <module name="highway-service-registry" options="-parameters" />
+      <module name="ticket-api-gateway" options="-parameters" />
+      <module name="ticket-config-server" options="-parameters" />
+      <module name="ticket-payment-service" options="-parameters" />
+      <module name="ticket-service-registry" options="-parameters" />
+      <module name="ticket-ticket-service" options="-parameters" />
+      <module name="ticket-user-service" options="-parameters" />
+      <module name="ticket-vehicle-service" options="-parameters" />
     </option>
   </component>
 </project>

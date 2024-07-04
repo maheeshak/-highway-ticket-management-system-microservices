@@ -5,6 +5,14 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/highway-service-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/highway-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/ticket-api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/ticket-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/ticket-payment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ticket-service-registry/pom.xml" />
+        <option value="$PROJECT_DIR$/ticket-ticket-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ticket-user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/ticket-vehicle-service/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
