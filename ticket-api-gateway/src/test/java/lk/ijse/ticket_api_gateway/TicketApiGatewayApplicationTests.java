@@ -1,10 +1,10 @@
-package lk.ijse.highway_service_registry;
+package lk.ijse.ticket_api_gateway;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class HighwayServiceRegistryApplicationTests {
+class TicketApiGatewayApplicationTests {
 
 	@Test
 	void contextLoads() {

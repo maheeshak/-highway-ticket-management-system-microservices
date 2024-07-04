@@ -1,0 +1,35 @@
+spring:
+  application:
+    name: ticket-api-gateway
+  cloud:
+    gateway:
+      mvc:
+        routes:
+          - id: user-service
+            uri: lb://ticket-user-service
+            predicates:
+              - Path=/api/v1/user/**
+
+          - id: vehicle-service
+            uri: lb://ticket-vehicle-service
+            predicates:
+              - Path=/api/v1/vehicle/**
+
+          - id: ticket-service
+            uri: lb://ticket-ticket-service
+            predicates:
+              - Path=/api/v1/ticket/**
+
+          - id: payment-service
+            uri: lb://ticket-payment-service
+            predicates:
+              - Path=/api/v1/payment/**
+
+server:
+  port: 8079
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
