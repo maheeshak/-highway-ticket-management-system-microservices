@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>lk.ijse</groupId>
-	<artifactId>highway-service-registry</artifactId>
+	<artifactId>ticket-service-registry</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>highway-service-registry</name>
+	<name>ticket-service-registry</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
